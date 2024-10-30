@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{C2D46EF1-B5DC-AB91-D126-E1332327675C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/generateTrench.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TerrainGenerator.cs" Line="58" Column="1" />
+      <File FileName="Assets/Scripts/generateTrench.cs" Line="128" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Trenches" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="573fd445-08c2-4f70-a451-ba0ed1335a67" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
