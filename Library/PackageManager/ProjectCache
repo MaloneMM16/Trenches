@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638615230550000000
+      ticks: 638659272190000000
     m_Hash: 1719789460
   m_LockFileStatus:
     m_FilePath: /Users/liamburke/Trenches/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638615230730000000
+      ticks: 638659272190000000
     m_Hash: 4088091213
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -118,6 +118,7 @@ m_ResolvedPackages:
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     compatible:
     - 2.0.1
     - 2.0.3
@@ -133,6 +134,7 @@ m_ResolvedPackages:
     - 2.4.3
     - 2.4.4
     - 2.5.1
+    - 2.5.2
     verified: 2.0.7
   dependencies: []
   resolvedDependencies: []
@@ -324,6 +326,7 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
+    - 3.0.34
     compatible:
     - 3.0.18
     - 3.0.20
@@ -335,7 +338,8 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
-    verified: 3.0.31
+    - 3.0.34
+    verified: 3.0.34
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6

@@ -45,7 +45,7 @@ public class generateTrench : MonoBehaviour
         terrainScript = terrain.GetComponent<TerrainGenerator>();
 
 
-        startingPosition = Random.Range(20, 30) * 4;
+        startingPosition = Random.Range(startingPosition-10, startingPosition) * 4;
 
 
         transform.position = new Vector3(0, 0, startingPosition);
@@ -254,7 +254,7 @@ public class generateTrench : MonoBehaviour
         }
         if (transform.position.x == width)
         {
-            startingPosition = Mathf.Clamp(startingPosition / 4, 24, 256);
+            startingPosition = Mathf.Clamp(startingPosition / 3, 24, 256);
             transform.position = new Vector3(0, trenchDepth, startingPosition);
             finalStageTrench();
         }
