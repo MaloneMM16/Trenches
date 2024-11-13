@@ -14,3 +14,15 @@ Finally, i made the algorithm generate 'empty' nodes in every 'chunk' (as i casu
 Currently, my next step to start build two is to import a variety of 3d models made in blender and after that point, i can start on the building mechanics and a rudimentary enemy AI. After this point, the submission for the assessment should be ready after some brief player testing.
 
 > **End of Devlog #1**
+
+> **Devlog #2 - 9th November**
+
+This commit had less content in comparison to the last one. As opposed to the very algorithm-based features introduced in the last commit, this one was focused on the core components needed for this game. I introduced the 3d Models to the game for the trenches, and i also made it so they would change colours when you hover your mouse over them. Furthermore, upon clicking a chunk, The corresponding node co-ordinates are stated in the console.
+
+In addition to this, i also added some basic camera controls, which can be controlled with the arrow keys, as well as by holding middle mouse button down and dragging. Furthermore, the player can zoom into the game view by scrolling.
+This commit was much easier than the last one as it goes back to the very basics of Unity games. Admittedly, i did have to reference community posts for the camera movement controls as I had no idea how to approach the controls from a near-isometric viewpoint. These posts are referenced in the code comments.
+
+The next commit will be focused on introducing basic game mechanics such as levels and weapons.
+
+>**End of Devlog #2**
+
