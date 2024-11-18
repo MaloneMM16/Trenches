@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TerrainGenerator : MonoBehaviour
 {
-    public int depth;
+    public float depth;
     public static int width = 256;
     public static int height = width;
 
@@ -34,6 +34,15 @@ public class TerrainGenerator : MonoBehaviour
 
     }
 
+    void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            terrain.terrainData = GenerateTerrain(terrain.terrainData);
+        }
+        
+    }
 
     public TerrainData GenerateTerrain (TerrainData terrainData)
     {
@@ -62,7 +71,7 @@ public class TerrainGenerator : MonoBehaviour
     public float CalculateHeight (int x, int y)
     {
         float xCoord = (float)x / width * scale + offsetX;
-        float yCoord = (float)y / height * scale + offsetY;
+        float yCoord = Mathf.Clamp((float)y / height * scale + offsetY, 0, 2);
         return Mathf.PerlinNoise(xCoord, yCoord);
     }
 

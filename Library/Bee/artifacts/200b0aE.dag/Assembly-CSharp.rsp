@@ -344,8 +344,14 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/deleteOnContact.cs"
+"Assets/HealthScript.cs"
+"Assets/PauseManager.cs"
+"Assets/playPause.cs"
+"Assets/Scripts/balloonMove.cs"
 "Assets/Scripts/CameraMovement.cs"
 "Assets/Scripts/CameraMovementKeys.cs"
+"Assets/Scripts/enemySpawn.cs"
 "Assets/Scripts/generateTrench.cs"
 "Assets/Scripts/InputManager.cs"
 "Assets/Scripts/mouseOverButton.cs"
@@ -354,6 +360,7 @@
 "Assets/Scripts/roomSpawn.cs"
 "Assets/Scripts/scriptOnClick.cs"
 "Assets/Scripts/TerrainGenerator.cs"
+"Assets/shootScript.cs"
 -langversion:9.0
 
 /deterministic

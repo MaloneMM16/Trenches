@@ -25,7 +25,8 @@ public class generateTrench : MonoBehaviour
 
     public GameObject[] fillerRooms;
 
-    public  GameObject[,] roomArray;
+
+    public GameObject[,] roomArray = new GameObject[256, 256];
     public List<Vector2> loadedRooms;
 
     public static bool firstStageDone;
@@ -283,7 +284,7 @@ public class generateTrench : MonoBehaviour
         GameObject temp = Instantiate(trench, new Vector3(transform.position.x, trenchDepth, transform.position.z), Quaternion.identity, buildParent.transform);
 
         // Store the trench object in the roomArray
-        //roomArray[x, z] = temp;
+        roomArray[x, z] = temp;
         loadedRooms.Add(new Vector2(x, z)); // Keep track of loaded rooms
 
         // Apply this change to the terrain heightmap
@@ -348,7 +349,7 @@ public class generateTrench : MonoBehaviour
         GameObject temp = Instantiate(trench, new Vector3(transform.position.x, terrainHeight, transform.position.z), Quaternion.identity, buildParent.transform);
 
         // Store the trench object in the roomArray
-        //roomArray[x, z] = temp;
+        roomArray[x, z] = temp;
         loadedRooms.Add(new Vector2(x, z)); // Keep track of loaded rooms
 
 

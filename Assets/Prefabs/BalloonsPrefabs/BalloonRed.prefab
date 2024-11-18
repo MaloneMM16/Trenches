@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 4725974544121280115}
   - component: {fileID: 7584386758251450169}
   - component: {fileID: 6369389168126208941}
+  - component: {fileID: 6665637411220222637}
+  - component: {fileID: 273574737543031261}
+  - component: {fileID: 8774977682252535659}
   m_Layer: 0
   m_Name: default
-  m_TagString: Untagged
+  m_TagString: RedBalloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,6 +86,50 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &6665637411220222637
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548679263099626824}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.987231
+  m_Height: 4.073243
+  m_Direction: 1
+  m_Center: {x: -0.0000005298191, y: -1.0390425, z: 0}
+--- !u!54 &273574737543031261
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548679263099626824}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 1
+--- !u!114 &8774977682252535659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548679263099626824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4851fdf658db84248a37af83156f98b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
+  parent: {fileID: 4804756209370291601}
 --- !u!1 &4804756209370291601
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,7 +141,7 @@ GameObject:
   - component: {fileID: 5325010663673562923}
   m_Layer: 0
   m_Name: BalloonRed
-  m_TagString: Untagged
+  m_TagString: RedBalloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

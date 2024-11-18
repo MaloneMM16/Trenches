@@ -8,6 +8,19 @@ TagManager:
   - FH
   - AT
   - Trench
+  - BL
+  - BR
+  - TL
+  - TR
+  - StraightTrench
+  - UpTrench
+  - Empty
+  - RedBalloon
+  - BlueBalloon
+  - GreenBalloon
+  - YellowBalloon
+  - MGBullet
+  - enemySpawner
   layers:
   - Default
   - TransparentFX

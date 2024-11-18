@@ -57,15 +57,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/TerrainGenerator.cs" />
+    <Compile Include="Assets/PauseManager.cs" />
     <Compile Include="Assets/Scripts/CameraMovement.cs" />
+    <Compile Include="Assets/Scripts/scriptOnClick.cs" />
+    <Compile Include="Assets/Scripts/balloonMove.cs" />
     <Compile Include="Assets/Scripts/mouseSelector.cs" />
     <Compile Include="Assets/Scripts/PlacementSystem.cs" />
     <Compile Include="Assets/Scripts/InputManager.cs" />
     <Compile Include="Assets/Scripts/mouseOverButton.cs" />
+    <Compile Include="Assets/deleteOnContact.cs" />
     <Compile Include="Assets/Scripts/roomSpawn.cs" />
     <Compile Include="Assets/Scripts/CameraMovementKeys.cs" />
+    <Compile Include="Assets/playPause.cs" />
     <Compile Include="Assets/Scripts/generateTrench.cs" />
-    <Compile Include="Assets/Scripts/scriptOnClick.cs" />
+    <Compile Include="Assets/shootScript.cs" />
+    <Compile Include="Assets/HealthScript.cs" />
+    <Compile Include="Assets/Scripts/enemySpawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
