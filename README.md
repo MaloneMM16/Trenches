@@ -26,3 +26,19 @@ The next commit will be focused on introducing basic game mechanics such as leve
 
 >**End of Devlog #2**
 
+>**Start of Devlog #3**
+
+I'm not going to lie, i have very little memory of what has changed in this commit. Most of the features i have added are small little things here and there that make the game a little bit more playable. It's hard to keep track of and, i know, i probably should have. Nonetheless, i will start listing things that i **THINK** i have added in this push
+
+  Player Health
+  Player Economy
+  A Pause Feature
+  A quit to Desktop Feature
+  Time control
+  Cheats (For demonstration's purpose trust me bro) (Just try, hit C, D, then = *(not the one on the numberPad)*)
+  Fixed a typo where yellow balloons couldn't be spawned at the level they're meant to (all thanks to the cheats)
+  Fixed a bug where the game would stop working after level 40. (another typo fixed by my sneaky use of cheats)
+
+Not going to lie, there's probably more but that's really all i can remember. This segment was (at least majorly) done without use of ChatGPT. It was relatively easy coding. I think the only part was an issue with instancing through the *activeBalloons* array in order to delete them (for the cheats, of course.) So, not central to the gameplay at least. This section was incredibly easy and i had literally no issues with it (apart from the damn cheats, as mentioned like 2 seconds ago).
+
+>**End of Devlog #3**
